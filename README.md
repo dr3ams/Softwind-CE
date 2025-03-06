@@ -8,5 +8,8 @@
 
 Repository contains different *unofficial* patches for Softwind Minecraft modpack
 
-Current list of changes:
+# How to install
+
+
+# Current list of changes:
 -
