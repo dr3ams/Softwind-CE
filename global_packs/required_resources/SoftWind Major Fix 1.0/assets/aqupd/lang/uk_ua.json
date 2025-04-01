@@ -1,0 +1,20 @@
+﻿{
+
+  "entity.aqupd.panda_bear": "Панда",
+
+  "item.aqupd.panda_bear_spawn_egg": "Яйце виклику панди",
+  "subtitles.entity.panda_bear.ambient": "Панда ричить",
+  "subtitles.entity.panda_bear.ambient_baby": "Панда бурчить",
+  "subtitles.entity.panda_bear.hurt": "Панду поранено",
+       "subtitles.entity.panda_bear.death": "Панда гине",
+
+  "subtitles.entity.panda_bear.hurt": "Панду поранено",
+  "subtitles.entity.panda_bear.warning": "Панда реве",
+  "entity.aqupd.grizzly_bear": "Бурий ведмідь",
+  "item.aqupd.grizzly_bear_spawn_egg": "Яйце виклику бурого ведмедя",
+  "subtitles.entity.grizzly_bear.ambient": "Бурий ведмідь ричить",
+  "subtitles.entity.grizzly_bear.ambient_baby": "Бурий ведмідь бурчить",
+  "subtitles.entity.grizzly_bear.death": "Бурий ведмідь гине",
+  "subtitles.entity.grizzly_bear.hurt": "Бурого ведмедя поранено",
+  "subtitles.entity.grizzly_bear.warning": "Рик бурого ведмедя"
+}

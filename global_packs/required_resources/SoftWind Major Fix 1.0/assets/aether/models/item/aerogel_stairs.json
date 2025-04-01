@@ -1,0 +1,10 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "aether:block/aerogel_stairs",
+	"display": {
+		"gui": {
+			"rotation": [30, 45, 0],
+			"scale": [0.625, 0.625, 0.625]
+		}
+	}
+}

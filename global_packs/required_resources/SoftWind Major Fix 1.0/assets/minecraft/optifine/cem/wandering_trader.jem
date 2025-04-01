@@ -1,0 +1,152 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [64, 64],
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{
+					"coordinates": [-4, 23.75, -4, 8, 8, 8],
+					"uvNorth": [48, 48, 64, 64],
+					"uvEast": [48, 32, 64, 48],
+					"uvSouth": [48, 32, 64, 48],
+					"uvWest": [48, 32, 64, 48],
+					"uvUp": [16, 16, 0, 0],
+					"uvDown": [16, 0, 0, 16]
+				}
+			]
+		},
+		{
+			"part": "headwear",
+			"id": "headwear",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0]
+		},
+		{
+			"part": "headwear2",
+			"id": "headwear2",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"submodels": [
+				{
+					"id": "rotation",
+					"invertAxis": "xy",
+					"translate": [0, 24, 0],
+					"rotate": [90, 0, 0]
+				}
+			],
+			"animations": [
+				{
+					"rotation.rx": 0
+				}
+			]
+		},
+		{
+			"part": "nose",
+			"id": "nose",
+			"invertAxis": "xy",
+			"translate": [0, -26, 0]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{"coordinates": [-4, 12, -2, 8, 12, 4], "textureOffset": [16, 16], "sizeAdd": 0.001}
+			],
+			"submodels": [
+				{
+					"id": "arm_left",
+					"invertAxis": "xy",
+					"translate": [-4, 22, 0],
+					"boxes": [
+						{"coordinates": [-4, -10, -2, 4, 12, 4], "textureOffset": [32, 48]}
+					]
+				},
+				{
+					"id": "arm_right",
+					"invertAxis": "xy",
+					"translate": [4, 22, 0],
+					"boxes": [
+						{"coordinates": [0, -10, -2, 4, 12, 4], "textureOffset": [40, 16]}
+					]
+				},
+				{
+					"id": "leg_left",
+					"invertAxis": "xy",
+					"translate": [-2, 12, 0],
+					"boxes": [
+						{"coordinates": [-2, -12, -2, 4, 12, 4], "textureOffset": [16, 48]}
+					]
+				},
+				{
+					"id": "leg_right",
+					"invertAxis": "xy",
+					"translate": [2, 12, 0],
+					"boxes": [
+						{"coordinates": [-2, -12, -2, 4, 12, 4], "textureOffset": [0, 16]}
+					]
+				}
+			],
+			"animations": [
+				{
+					"arm_right.rz": "270.235 + (sin(time / 13) / 18)",
+					"arm_right.rx": "(sin(time / 23) / 18) + 2*left_leg.rx",
+					"arm_left.rz": "270.125 - (sin(time / 13) / 18)",
+					"arm_left.rx": "-(sin(time / 23) / 18) + 2*right_leg.rx",
+					"leg_left.rx": "1.5*left_leg.rx",
+					"leg_right.rx": "1.5*right_leg.rx"
+				}
+			]
+		},
+		{
+			"part": "bodywear",
+			"id": "bodywear",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0]
+		},
+		{
+			"part": "arms",
+			"id": "arms",
+			"invertAxis": "xy",
+			"translate": [0, -20.5, -0.3],
+			"submodels": [
+				{
+					"id": "arms_rotation",
+					"invertAxis": "xy",
+					"translate": [0, 22.5, 0.35],
+					"rotate": [43, 0, 0],
+					"submodels": [
+						{
+							"id": "arms_flipped",
+							"invertAxis": "xy",
+							"mirrorTexture": "u",
+							"translate": [0, -24, 0]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"arms_rotation.rx": 0
+				}
+			]
+		},
+		{
+			"part": "right_leg",
+			"id": "right_leg",
+			"invertAxis": "xy",
+			"translate": [-2, -12, 0]
+		},
+		{
+			"part": "left_leg",
+			"id": "left_leg",
+			"invertAxis": "xy",
+			"translate": [2, -12, 0]
+		}
+	]
+}

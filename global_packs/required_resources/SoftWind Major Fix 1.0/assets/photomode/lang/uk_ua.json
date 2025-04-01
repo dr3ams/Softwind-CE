@@ -1,0 +1,12 @@
+{
+  
+  "gui.photomode.takescreenshot": "Зробити знімок екрана",
+  "gui.photomode.time": "Час: %s",
+  "gui.photomode.fog": "Туман: %s%%",
+  "gui.photomode.tilt": "Нахил: %s",
+  "gui.photomode.default": "За замовчуванням",
+  "gui.photomode.degrees": "",
+  "gui.photomode.centerScreen": "Вирівняти по центру",
+  "gui.photomode.showPlayer": "Показувати гравця: %s",
+  "gui.photomode.helpText": "Затисність і перетягуйте для переміщення та обертання."
+}
