@@ -14,4 +14,4 @@ Repository contains different *unofficial* patches for Softwind Minecraft modpac
 - launch the game, activate resourcepack and put it ABOVE all resourcepacks
 
 # Current list of changes:
-- [release 1.0](https://github.com/dr3ams/Softwind-CE/commit/9abe25d8de752626667143eda96160ac8cd095ca)
+- [release 1.0](https://github.com/dr3ams/Softwind-CE/commit/9abe25d8de752626667143eda96160ac8cd095ca) by @dzurchick
