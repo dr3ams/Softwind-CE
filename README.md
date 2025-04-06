@@ -10,7 +10,7 @@ Repository contains different *unofficial* patches for Softwind Minecraft modpac
 
 # How to install
 - download latest [release](https://github.com/dr3ams/Softwind-CE/releases)
-- place it into SoftWind\global_packs\required_resources\
+- place it into SoftWind\resourcepacks
 - launch the game, activate resourcepack and put it ABOVE all resourcepacks
 
 # Current list of changes:
